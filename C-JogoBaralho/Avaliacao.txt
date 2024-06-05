@@ -1,0 +1,28 @@
+O que deve ser realizado na questão :
+
+A) Primeiramente defina um tipo abstrato de dados (TAD) para representar uma “carta do baralho”: com numero e naipe.
+
+B) Em seguida, crie um tipo abstrato de dados (TAD) para representar uma “pilha” de cartas, com funções como:
+
+clean(): limpa a pilha;
+empty(): verifica se a pilha está vazia;
+push(): insere um elemento no topo da pilha;
+pop(): retira um elemento do topo da pilha.
+C) O jogo deverá ter 4 pilhas:
+
+O monte (origem das cartas);
+O morto (cartas descartadas);
+As cartas do jogador 1;
+As castas do jogador 2;
+D) Crie uma função para gerar as 52 cartas de um baralho comum no “monte”.
+
+E) Crie outra função para embaralhar as cartas no “monte”.
+
+F) Então faça a simulação de um jogo: cada jogador deve escolher 5 números diferentes um do outro; cada jogador retira uma carta do monte, se a carta retirada for do número que ele escolheu, ele fica com a carta, senão a carta é descartada. Quem terminar o jogo com mais cartas ganha o jogo. Você pode também elaborar uma forma de dar pontuações por cada carta retirada.
+
+G) No main, faça uma simulação do seu sistema chamando as rotinas para:
+
+Gerar as 52 cartas no monte
+Embaralhar as cartas no monte
+Loop do jogo: simular as retiradas das cartas e cálculo da pontuação
+Anunciar o vencedor
