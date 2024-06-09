@@ -8,12 +8,14 @@ clean(): limpa a pilha;
 empty(): verifica se a pilha está vazia;
 push(): insere um elemento no topo da pilha;
 pop(): retira um elemento do topo da pilha.
+
 C) O jogo deverá ter 4 pilhas:
 
 O monte (origem das cartas);
 O morto (cartas descartadas);
 As cartas do jogador 1;
 As castas do jogador 2;
+
 D) Crie uma função para gerar as 52 cartas de um baralho comum no “monte”.
 
 E) Crie outra função para embaralhar as cartas no “monte”.
